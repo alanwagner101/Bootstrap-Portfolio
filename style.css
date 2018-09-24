@@ -1,0 +1,21 @@
+body {
+    background-image: url(images/grey_wash_wall.png);
+    background-repeat: repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-align: center;
+    margin: 0;
+    height: 100%;
+}
+
+#My-Name {
+    font-family: "'Georgia', Times, 'Times New Roman', serif";
+    height: 76px;
+    width: 250px;
+    float: left;
+    background: #4aaaa5;
+    color: #eeeeee;
+    padding: 20px;
+    margin: 2px;
+    font-weight: bold;
+}
