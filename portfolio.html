@@ -16,33 +16,79 @@
 
     <body>
 
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-10">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 80px; z-index: 1; border-bottom: 2px solid #cccccc;">
-                        <h2 id="My-Name">Alan Wagner</h2>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav" style="padding-left: 450px;">
-                                <li class="nav-item">
-                                    <a class="nav-link" style="border-right: 2px solid #cccccc;" href="index.html">About</a>
-                                </li>
-                                <li class="nav-item">
+        <div class="wrapper">
+
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-10">
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar1">
+                            <h2 id="My-Name">Alan Wagner</h2>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav" id="UL1">
+                                    <li class="nav-item">
+                                    <a class="nav-link" id="navlink1" href="index.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
                                     <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" style="border-left: 2px solid #cccccc;" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" id="navlink2" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin-top: -80px; height: 80px; border-bottom: 2px solid #cccccc;"></nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id=navbar2></nav>
+
+            <div class="container" id="Container3">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-10">
+                        <h2 id="Portfolio">Portfolio</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4" id="picbox1">
+                        <img src="images/hangman.jpg" alt="hangman">
+                        <p class="picwords">Hangman</p>
+                    </div>
+                    <div class="col-md-4" id="picbox2">
+                        <img src="images/rpg.jpg" alt="RPG Game">
+                        <p class="picwords">RPG Game</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4" id="picbox3">
+                        <img src="images/trivia.jpg" alt="Trivia">
+                        <p class="picwords">Trivia Game</p>
+                    </div>
+                    <div class="col-md-4" id="picbox4">
+                        <img src="images/widget.jpg" alt="Rutgers Info Widget">
+                        <p class="picwords">Rutgers Info Widget</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4" id="picbox5">
+                        <img src="images/rockpaperscissors.jpg" alt="Rock Paper Scissors">
+                        <p class="picwords">Rock Paper Scissors</p>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+
+            <div class="push"></div>
+    
+        </div>
+    
+        <footer>Copyright&copy;</footer>
 
     </body>
 

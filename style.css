@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-image: url(images/grey_wash_wall.png);
     background-repeat: repeat;
@@ -11,11 +16,194 @@ body {
 #My-Name {
     font-family: "'Georgia', Times, 'Times New Roman', serif";
     height: 76px;
-    width: 250px;
+    width: 240px;
     float: left;
     background: #4aaaa5;
     color: #eeeeee;
     padding: 20px;
-    margin: 2px;
+    margin: 0px;
     font-weight: bold;
+}
+
+#UL1 {
+    padding-left: 450px;
+}
+
+#navbar1 {
+    height: 80px; 
+    z-index: 1; 
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #cccccc;
+}
+
+#navbar2 {
+    margin-top: -80px; 
+    height: 80px; 
+    border-bottom: 2px solid #cccccc;
+}
+
+#navlink1 {
+    border-right: 2px solid #cccccc;
+}
+
+#navlink2 {
+    border-left: 2px solid #cccccc;
+}
+
+#Container1 {
+    background: #f8f9fa;
+    width: 920px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#Container2 {
+    background: #f8f9fa;
+    width: 920px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#Container3 {
+    background: #f8f9fa;
+    width: 920px;
+    padding: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#AlanPic {
+    width: 250px;
+    height: 250px;
+    margin: 0px 0px 20px -50px;
+}
+
+#About-Me {
+    font-family: "'Georgia', Times, 'Times New Roman', serif";
+    color: #4aaaa5;
+    font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    text-align: left;
+    margin: 20px -40px 20px -50px;
+
+}
+
+#P1 {
+    text-align: left;
+    margin: 0px -50px 20px 0px;
+}
+
+#P2 {
+    text-align: left;
+    margin: 0px -50px 20px 0px;
+}
+
+#P3 {
+    text-align: left;
+    margin: 0px -50px 20px -50px;
+}
+
+#Contact {
+    font-family: "'Georgia', Times, 'Times New Roman', serif";
+    color: #4aaaa5;
+    font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    text-align: left;
+    margin: 20px -40px 20px -50px;
+}
+
+#form2 {
+    text-align: left;
+    margin: 0px -50px 20px -50px;
+}
+
+#form3 {
+    text-align: left;
+    margin: 0px -50px 20px -50px;
+}
+
+#form1 {
+    text-align: left;
+    margin: 0px -50px 20px -50px;
+}
+
+#submit {
+    text-align: left;
+    background: #4aaaa5;
+    color: #eeeeee;
+    margin: 40px 40px 40px -100px;
+}
+
+#Portfolio {
+    font-family: "'Georgia', Times, 'Times New Roman', serif";
+    color: #4aaaa5;
+    font-weight: bold;
+    border-bottom: 2px solid #cccccc;
+    text-align: left;
+    margin: 20px -40px 20px -50px;
+}
+
+#picbox1 {
+    margin: 20px 
+}
+
+#picbox2 {
+    margin: 20px 
+}
+
+#picbox3 {
+    margin: 20px 
+}
+
+#picbox4 {
+    margin: 20px 
+}
+
+#picbox5 {
+    margin: 20px 20px 20px -20px;
+}
+
+.picwords {
+    display: block;
+    border: none;
+    font-family: "'Georgia', Times, 'Times New Roman', serif";
+    font-size: 15px;
+    position: relative;
+    top: -85px;
+    left: 6px;
+    z-index: 1;
+    text-align: center;
+    background: #4aaaa5;
+    color: #eeeeee;
+    height: 50px;
+    width: 275px;
+    padding-top: 12px;
+    transition: all 0.5s ease-in-out
+}
+
+.picwords:hover {
+    background-color: #ffffff;
+    color: #4aaaa5
+}
+
+footer {
+    text-align: center;
+    background: #666666;
+    color: #eeeeee;
+    border-top: 5px solid #4aaaa5;
+    margin: 0 auto;
+    height: 55px;
+    padding-top: 15px;
+}
+
+.push, .footer {
+    height: 55px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -55px;
 }
